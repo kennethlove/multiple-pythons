@@ -36,6 +36,6 @@ configure profiles and autocompletions for each of the following shells:
 - The latest Python version provided in the `versions` list will be set as the
 global version in `asdf` by default. The user can change this afterwards.
 
-# Credits
+## Credits
 
 This feature is heavily borrowed from ["Hypermodern Python"](https://github.com/natescherer/devcontainers-custom-features).
