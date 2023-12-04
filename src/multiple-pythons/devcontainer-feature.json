@@ -1,0 +1,16 @@
+{
+    "name": "Multiple Pythons",
+    "id": "multiple-pythons",
+    "version": "1.0.0",
+    "description": "A feature to install multiple Python versions via asdf.",
+    "options": {
+        "versions": {
+            "type": "string",
+            "default": "3.10 3.11",
+            "description": "A space separated list of Python major versions to install and configure."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
